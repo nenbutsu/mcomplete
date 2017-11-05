@@ -1175,12 +1175,12 @@ Otherwise try to complete it."
 
 
 (defface mcomplete-prefix-method-fixed-part-face
-  '((t (:bold t :foreground "Aquamarine")))
+  '((t (:bold t :foreground "dark slate gray")))
   "Face to highlight the fixed part of input for prefix matching method."
   :group      'mcomplete)
                      
 (defface mcomplete-prefix-method-alternative-part-face
-  '((t (:foreground "Aquamarine")))
+  '((t (:foreground "dark slate gray")))
   "Face to highlight the alternative part of input for prefix matching method."
   :group      'mcomplete)
 
@@ -1295,12 +1295,12 @@ Otherwise try to complete it."
 
 
 (defface mcomplete-substr-method-fixed-part-face
-  '((t (:bold t :foreground "SpringGreen")))
+  '((t (:bold t :foreground "forest green")))
   "Face to highlight the fixed part of input for substring matching method."
   :group      'mcomplete)
                      
 (defface mcomplete-substr-method-alternative-part-face
-  '((t (:foreground "SpringGreen")))
+  '((t (:foreground "forest green")))
   "Face to highlight alternative parts of input for substring matching method."
   :group      'mcomplete)
 
